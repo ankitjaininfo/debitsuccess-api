@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
 | ------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | _authToken_         |              | get this token from [Debitsuccess Identity Server](https://debitsuccess.stoplight.io/docs/debitsuccess-api/docs/Introduction/2-Authentication.md) using your  _client secret_  and  _client ID_ |
 | _businessAccountId_ |              | a unique identifier (string, Debitsuccess contract prefix) of the business customer belongs to                                                                                                  |
-| _domain_            | Optional     | describes the environment the widget will be used against, possible values:  **OC-Test** <https://oc-test.debitsuccess.com>  **OC-Production** <https://oc.debitsuccess.com> (default)          |
+| _domain_            | Optional     | describes the environment the widget will be used against, possible values:  **OC-SBox** <https://oc-sbox.debitsuccess.com>  **OC-Production** <https://oc.debitsuccess.com> (default)          |
 
 ### Step 3 - Initialize casual payments form
 

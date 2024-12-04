@@ -29,7 +29,7 @@ There are two possible flows for assigning the payment method to a customer:
 |  _authToken_  |  | get this token from [Debitsuccess Identity Server](https://debitsuccess.stoplight.io/docs/debitsuccess-api/docs/Introduction/2-Authentication.md) using your  _client secret_  and  _client ID_  | 
 |  _businessAccountId_  |  | a unique identifier (string, Debitsuccess contract prefix) of the business customer belongs to | 
 | customerId  | Optional | a unique identifier (integer) of the customer the payment method will be captured for.  `customerId` must be provided if `accountId` is provided. | 
-|  _domain_  | Optional | describes the environment the widget will be used against, possible values:<ul><li>**OC-Test** https://oc-test.debitsuccess.com </li><li> **OC-Production** https://oc.debitsuccess.com </li></ul> | 
+|  _domain_  | Optional | describes the environment the widget will be used against, possible values:<ul><li>**OC-SBox** https://oc-sbox.debitsuccess.com </li><li> **OC-Production** https://oc.debitsuccess.com </li></ul> | 
 |  _accountId_  | Optional | a unique identifier (string, Debitsuccess account reference) of the account a new payment method should be attached to | 
 
 
